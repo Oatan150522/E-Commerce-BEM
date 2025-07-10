@@ -69,11 +69,40 @@ nav{
 }
 /* Utltima palabra DRINK */
 .Titulo__Principal--color{
-  background: linear-gradient(90deg,rgba(30, 232, 64, 1) 0%, rgba(87, 199, 133, 1) 17%, rgba(237, 221, 83, 1) 37%);
+  background:  linear-gradient(90deg,rgba(30, 232, 64, 1) 0%, rgba(87, 199, 133, 1) 17%, rgba(237, 221, 83, 1) 37%);;
+
+  background-size: 400% 400%;
+
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;  /*Este es un truco que busque para poder aplicar Estilo a BRINKS*/
-  display: inline-block;
+
+  -webkit-text-fill-color: transparent;
+
+  animation: mover-gradiente 5s ease infinite;
+
 }
+
+@keyframes mover-gradiente {
+
+  0% {
+
+    background-position: 0% 50%;
+
+  }
+
+  50% {
+
+    background-position: 100% 50%;
+
+  }
+
+  100% {
+
+    background-position: 0% 50%;
+
+  }
+
+}
+
 /* Este el H1 del Titulo */
 .Titulo__Principal{
   text-align: center;
