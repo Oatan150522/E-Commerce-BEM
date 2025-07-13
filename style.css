@@ -26,7 +26,7 @@ nav{
   display: inline-block;
   width: 50px;
   height: 50px;
-  margin-right: 160vh;
+  margin-right: 140vh;  /* Se correige el error de los 160vh a 140vh */
 }
 
 /* Estilo de los 3 items */
@@ -120,7 +120,7 @@ nav{
   padding: 1%;
 }
 .Card{
-  width: 50%;
+  width: 70%;
   height: 20%;
   margin: 0 auto;
   margin-top: 20px;
